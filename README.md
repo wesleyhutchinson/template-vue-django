@@ -109,56 +109,6 @@ Password:
 
 Then enter your username and password into the admin portal of the site at [`localhost:8000/api/admin`](http://localhost:8000/api/admin).
 
-## Testing
-
-### Frontend - Vue.js
-
-Test files ae located in the root folder `/tests/unit`. `example.spec.js` outlines the Vue recommended way of writing a test.
-
-To run tests:
-
-```shell
-$ yarn test
-
-or
-
-$ yarn test:watch
-```
-
-### Backend - Django
-
-To run tests:
-
-```shell
-$ python manage.py test
-```
-
-To run tests with a code coverage report:
-
-```shell
-$ coverage run manage.py test
-$ coverage report
-$ coverage html
-```
-
-Running `report` and `html` together is not necessary if you do not intend to read either the terminal or HTML output. HTML coverage reports for Python are output to `./htmlcov/`.
-
-### End-to-end System and Integration Testing
-
-This is performed by [cypress](https://www.cypress.io/).
-
-To run tests interactively:
-
-```shell
-$ yarn run cypress open
-```
-
-To run tests in headless mode:
-
-```shell
-$ yarn run cypress run
-```
-
 ## Deploy
 
 - Set `ALLOWED_HOSTS` on [`backend.settings.prod`](/backend/settings/prod.py)
