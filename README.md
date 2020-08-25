@@ -57,7 +57,7 @@ Before getting started you should have the following installed and running:
 
 ```shell
 $ git clone https://github.com/wesleyhutchinson/template-vue-django
-$ cd gpbench
+$ cd template-vue-django
 ```
 
 Setup
@@ -116,8 +116,8 @@ Then enter your username and password into the admin portal of the site at [`loc
 ### Heroku Server
 
 ```shell
-$ heroku apps:create gpbench
-$ heroku git:remote --app gpbench
+$ heroku apps:create template-vue-django
+$ heroku git:remote --app template-vue-django
 $ heroku buildpacks:add --index 1 heroku/nodejs
 $ heroku buildpacks:add --index 2 heroku/python
 $ heroku addons:create heroku-postgresql:hobby-dev
@@ -145,4 +145,4 @@ and then set your CDN's origin back to your domains `/static` url.
 
 Whitenoise will serve static files to your CDN once, but once cached, assets are served directly by the CDN.
 
-[Cloudfront Setup Wiki](https://github.com/wesleyhutchinson/gpbench/wiki/Setting-up-a-CDN-with-CloudFront)
+[Cloudfront Setup Wiki]()
