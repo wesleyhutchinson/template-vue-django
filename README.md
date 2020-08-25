@@ -1,4 +1,4 @@
-# Base Vue Django Template - Template for creating Django backend serving Vue.js frontend
+# Template Vue Django - Template for creating Django backend serving Vue.js frontend
 
 This repository contains code for the base template for django - vue website.
 
