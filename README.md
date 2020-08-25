@@ -56,7 +56,7 @@ Before getting started you should have the following installed and running:
 ## Setup
 
 ```shell
-$ git clone https://github.com/wesleyhutchinson/gpbench
+$ git clone https://github.com/wesleyhutchinson/template-vue-django
 $ cd gpbench
 ```
 
