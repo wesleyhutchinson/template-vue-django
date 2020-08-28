@@ -88,9 +88,10 @@ webpack's development server with hot module replacement.
 Proxy config in [`vue.config.js`](/vue.config.js) is used to route the requests
 back to Django's API on port 8000.
 
-If you would rather run a single dev server, you can run Django's
-development server only on `:8000`, but you have to build build the Vue app first
-and the page will not reload on changes.
+If you would rather run a single dev server (or if [`localhost:8080`](http://localhost:8080/) reports 
+'template location error' run 'build process below and restart server), you can run Django's 
+development server only on `:8000`, but you have to build build the Vue app first and the page will 
+not reload on changes.
 
 ```shell
 $ yarn build
